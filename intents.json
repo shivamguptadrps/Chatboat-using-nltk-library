@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "शुभकामना",
+      "patterns": [
+        "क्या हाल है",
+        "आप कैसे हैं",
+        "ओर बताओ अपने बारे मेँ"
+      ],
+      "responses": [
+        "हाय, मैं कैसे मदद कर सकता हूँ?",
+        "हैलो, आने के लिए धन्यवाद"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "अलविदा",
+      "patterns": ["अलविदा", "बाद में मिलते है"],
+      "responses": [
+        "बाद में मिलते हैं, आने के लिए धन्यवाद",
+        "आपका दिन शुभ हो",
+        "अलविदा! जल्द ही फिर से वापस लौटें"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell company company, xyz and company",
+        "We have company company, xyz and company"
+      ]
+    },
+    {
+      "tag": "Pricing",
+      "patterns": [
+        "What is the cost?",
+        "What is the price?",
+        "What is the cost of company company?",
+        "What is the cost of company?",
+        "What is the price of company xyz?",
+        "What is the price of xyz?",
+        "What are the charges?",
+        "What are the charges like?",
+        "What is the charge of company company?",
+        "What is the charge of company?",
+        "What is the charge of company xyz?",
+        "What is the charge of xyz?",
+        "How much is the software for?",
+        "How much is the solution for?",
+        "How much is the product for ?",
+        "How much is contauqe xyz for?",
+        "How much is xyz for?",
+        "How much is company company for?",
+        "How much is company for?"
+      ],
+      "responses": [
+        "The cost depends on what all features you would like to have. To get an exact estimate, fill out this form.",
+        "The pricing varies from client to client based on their requirements. Tell us your exact requirements here by filling out this form to find out about the costing.",
+        "The cost depends upon the features that you opt for and the level of customisation (if any) that you require. Let us know by filling out this form and get an exact estimate of our pricing.",
+        "The solutions don’t come at a standard price, it all depends upon the number of seats, customisations and requirements you have. Let us know them here by filling out this form."
+      ]
+    },
+    {
+      "tag": "Live Demo",
+      "patterns": [
+        "Do you offer live demo?",
+        "Do you give free trial?",
+        "Can I test the product?",
+        "Do you provide pilot license?",
+        "Is there a trial period?",
+        "I want to see how the product works",
+        "I want to see how the software works",
+        "I want to see how the solution works",
+        "I would like to talk to a manager",
+        "Can I connect with someone?",
+        "Can you show me how the product works?",
+        "Can you show me how the software works?",
+        "Can you show me how the solution works?"
+      ],
+      "responses": [
+        "We offer lives demos, where our account managers will set up the mock simulation. You can schedule yours here",
+        "Different people have different requirements, which is why, we offer custom live demos, creating mock simulations to give you an idea of how our solutions will work for you. Schedule yours here.",
+        "Get a live look and feel of our solution to see how it will work for you. Schedule your live demo with our account managers here."
+      ]
+    },
+    {
+      "tag": "xyz",
+      "patterns": [
+        "What is company xyz?",
+        "What is xyz?",
+        "Full form of xyz",
+        "What is the full form of xyz",
+        "What does xyz do?",
+        "I want calling feature",
+        "Do you have calling featue?",
+        "Does xyz have a calling feature?",
+        "Does company xyz have a calling feature?",
+        "Voice Calls",
+        "I want to make voice calls",
+        "Can xyz make voice calls?",
+        "Can xyz make outbound calls?",
+        "Can company xyz make outbound calls?",
+        "Can xyz make inbound calls?",
+        "Can company xyz make inbound calls?",
+        "Outbound calls",
+        "Inbound",
+        "Can xyz make blended calls?",
+        "Can company xyz make blended calls?",
+        "Can xyz make outbound and inbound calls?",
+        "Can company xyz make outbound and inbound calls?",
+        "Can xyz make inbound and outbound calls?",
+        "Can xyz make outbound & inbound calls?",
+        "Can company xyz make outbound & inbound calls?",
+        "Can xyz make inbound & outbound calls?",
+        "Can company xyz make inbound & outbound calls?",
+        "Blended calls"
+      ],
+      "responses": [
+        "companyTM xyz refers to Next Generation Unified Contact Center. It is an offering which caters to the voice category, To learn more, click here. Next Generation Unified Contact Center is an offering which allows you to make & take calls through a single platform. To learn more, click here. companyTM xyz is an offering which allows your agents to handle client calls with ease. To learn more, click here."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
